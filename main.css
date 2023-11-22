@@ -90,15 +90,15 @@ body {
 @media only screen and (max-width: 600px) {
     /* Styles für kleine Bildschirme (Smartphones) hier hinzufügen */
     #header {
-        font-size: 1.5em; /* Beispiel: Ändere die Größe des Headers für kleine Bildschirme */
+        font-size: 1em; /* Beispiel: Ändere die Größe des Headers für kleine Bildschirme */
     }
 
     #content {
-        font-size: 1em; /* Beispiel: Ändere die Größe des Inhalts für kleine Bildschirme */
+        font-size: 1.5em; /* Beispiel: Ändere die Größe des Inhalts für kleine Bildschirme */
     }
 
     #slogan {
-        font-size: 3em; /* Beispiel: Ändere die Größe des Slogans für kleine Bildschirme */
+        font-size: 2em; /* Beispiel: Ändere die Größe des Slogans für kleine Bildschirme */
     }
 
     .fa {
