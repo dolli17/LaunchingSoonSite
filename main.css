@@ -43,7 +43,9 @@ body {
     font-size: 5.2em;
     font-weight: bold;
     white-space: nowrap;
+    margin-bottom: 20px; /* Abstand zwischen Slogan und Countdown */
 }
+
 
 #launching,
 #soon {
@@ -67,8 +69,8 @@ body {
 
 /* Style all font awesome icons */
 .fa {
-    padding: 20px;
-    font-size: 30px;
+    padding: 10px;
+    font-size: 10px;
     width: 50px;
     text-align: center;
     text-decoration: none;
@@ -86,6 +88,7 @@ body {
     background: transparent;
     color: white;
 }
+
 
 @media only screen and (max-width: 600px) {
     /* Styles für kleine Bildschirme (Smartphones) hier hinzufügen */
@@ -105,4 +108,62 @@ body {
         font-size: 20px; /* Beispiel: Ändere die Größe der Social Media Icons für kleine Bildschirme */
     }
 }
+
+#countdown-container {
+    background-color: rgba(0, 0, 0, 0.7); /* Adjust the background color as needed */
+    padding: 2%;
+    border-radius: 10px;
+}
+
+/* Style the countdown items */
+.countdown-item {
+    display: inline-block;
+    margin: 0 2%;
+    color: white;
+}
+
+.countdown-value {
+    font-size: 2em; /* Adjust as needed */
+    font-weight: bold;
+}
+
+.countdown-label {
+    font-size: 1em; /* Adjust as needed */
+}
+
+/* Apply the same font family to the countdown */
+#countdown {
+    font-family: 'Fugaz One', cursive;
+}
+
+/* Update the rest of your existing styles here */
+
+@media only screen and (max-width: 600px) {
+    /* Styles for small screens (Smartphones) */
+
+    /* Update styles for smaller screens here */
+    #countdown-container {
+        padding: 1%;
+        /* Adjustments for small screens */
+    }
+
+    .countdown-item {
+        margin: 0 1%;
+        /* Adjustments for small screens */
+    }
+
+    .countdown-value {
+        font-size: 1em;
+        /* Adjustments for small screens */
+    }
+
+    .countdown-label {
+        font-size: 0.5em;
+        /* Adjustments for small screens */
+    }
+
+    /* Other styles for small screens */
+}
+
+
 
